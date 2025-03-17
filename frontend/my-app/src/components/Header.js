@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
     <header className="header">
       <div className="logo">Goodwill Finds</div>
@@ -12,7 +15,9 @@ const Header = () => {
       </nav>
       <div className="header-actions">
         <input type="text" placeholder="Search..." />
-        <button className="login-button">Login</button>
+        <button className="login-button" onClick={() => navigate("/login")}>
+          Login
+        </button>
         <button>Cart</button>
       </div>
     </header>
