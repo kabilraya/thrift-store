@@ -10,8 +10,9 @@ const Header = () => {
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
       </nav>
-      <div className="search-cart">
+      <div className="header-actions">
         <input type="text" placeholder="Search..." />
+        <button className="login-button">Login</button>
         <button>Cart</button>
       </div>
     </header>

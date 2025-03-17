@@ -23,6 +23,31 @@ body {
   text-decoration: none;
   color: #333;
 }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-actions input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
 
 .search-cart input {
   padding: 0.5rem;
